@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f3f4f6;
-  color: #333;
+  background-color: #000;
+  color: #FFD700;
 }
 
 .container {
@@ -12,12 +12,13 @@ body {
 }
 
 .profile-card {
-  background: #fff;
+  background: #111;
   max-width: 700px;
   width: 100%;
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(255, 215, 0, 0.2);
+  border: 2px solid #FFD700;
 }
 
 .profile-img {
@@ -27,18 +28,19 @@ body {
   border-radius: 50%;
   display: block;
   margin: 0 auto 15px;
-  border: 4px solid #2563eb;
+  border: 4px solid #00FF7F;
 }
 
 h1 {
   text-align: center;
   font-size: 28px;
   margin: 10px 0 5px;
+  color: #FFD700;
 }
 
 .tagline {
   text-align: center;
-  color: #2563eb;
+  color: #00FF7F;
   font-size: 16px;
 }
 
@@ -49,13 +51,16 @@ h1 {
 .section h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #111827;
+  color: #FFD700;
+  border-bottom: 1px solid #00FF7F;
+  padding-bottom: 5px;
 }
 
 .section p,
 .section ul {
   font-size: 16px;
   line-height: 1.6;
+  color: #FFD700;
 }
 
 .section ul {
@@ -70,10 +75,12 @@ h1 {
 .links a {
   text-decoration: none;
   margin-right: 15px;
-  color: #2563eb;
+  color: #00FF7F;
   font-weight: bold;
+  transition: color 0.3s;
 }
 
 .links a:hover {
+  color: #FFD700;
   text-decoration: underline;
 }
