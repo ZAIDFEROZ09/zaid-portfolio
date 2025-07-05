@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: Georgia, serif;
-  background-color: #fff;
-  color: #000;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
 }
 
 .container {
@@ -15,9 +15,10 @@ body {
   background: #fff;
   max-width: 700px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 30px;
   border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .profile-img {
@@ -27,19 +28,19 @@ body {
   border-radius: 50%;
   display: block;
   margin: 0 auto 15px;
-  border: 2px solid #000;
+  border: 2px solid #005f99;
 }
 
 h1 {
   text-align: center;
   font-size: 28px;
   margin: 10px 0 5px;
-  color: #000;
+  color: #1a1a1a;
 }
 
 .tagline {
   text-align: center;
-  color: #333;
+  color: #555;
   font-size: 16px;
   font-style: italic;
 }
@@ -51,8 +52,8 @@ h1 {
 .section h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #111;
-  border-bottom: 1px solid #aaa;
+  color: #005f99;
+  border-bottom: 1px solid #005f99;
   padding-bottom: 5px;
 }
 
@@ -60,6 +61,7 @@ h1 {
 .section ul {
   font-size: 16px;
   line-height: 1.6;
+  color: #333;
 }
 
 .section ul {
@@ -74,12 +76,14 @@ h1 {
 .links a {
   text-decoration: none;
   margin-right: 15px;
-  color: #000;
+  color: #005f99;
   font-weight: bold;
+  transition: color 0.3s;
 }
 
 .links a:hover {
   text-decoration: underline;
+  color: #003d66;
 }
 
 li {
@@ -87,5 +91,5 @@ li {
 }
 
 li::marker {
-  color: #333;
+  color: #005f99;
 }
